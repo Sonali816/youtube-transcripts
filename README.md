@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Transcript-Grounded YouTube Advisor
 
 A small, production-minded chatbot that gives creators practical, transcript-grounded advice using only two provided transcripts.
@@ -70,3 +71,6 @@ Run:
 ```bash
 pytest -q
 ```
+=======
+# youtube-transcripts
+>>>>>>> 43886ae7a009059ae5fa044b36c54ecdabb025a4
