@@ -53,12 +53,13 @@ Machine-checkable format:
 
 ```mermaid
 flowchart LR
-    A[Transcripts] --> B[Ingestion\nnormalize + chunk]
-    B --> C[Embeddings\n(sentence-transformers)]
-    C --> D[ChromaDB Index]
-    E[User Question] --> F[Retriever\ntop-k search]
+    A[Transcripts] --> B(Ingestion\nnormalize + chunk)
+    B --> C(Embeddings\nsentence-transformers)
+    C --> D(ChromaDB Index)
+    E[User Question] --> F(Retriever\ntop-k search)
     D --> F
-    F --> G[Ollama Model\nlocal LLM]
-    G --> H[Grounded Answer\n+ citations]
+    F --> G(Ollama Model\nlocal LLM)
+    G --> H(Grounded Answer\n+ citations)
+
 
 ```
