@@ -1,0 +1,12 @@
+
+fastapi>=0.103.0
+uvicorn>=0.22.0
+pydantic>=2.7.4
+langchain==0.3.27
+sentence-transformers==2.2.2
+transformers==4.35.0
+#faiss-cpu==1.7.4
+pytest==7.4.0
+python-dotenv==1.0.0
+nltk==3.8.1
+chromadb
